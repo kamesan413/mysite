@@ -1,0 +1,67 @@
+canvas{
+  background-color:black;
+  display:block;
+}
+main{
+  display:flex;
+  border:5px solid blue;
+  background-color:skyblue;
+  width:800px;
+  margin:6px auto 0;
+}
+button{
+  display:block;
+  all:unset;
+  width:100%;
+  background-color:gray;
+  margin-top:10px;
+  text-align:center;
+  border-radius:4px;
+  box-shadow:0 3px black;
+  cursor:pointer;
+}
+.canvas{
+margin:10px;
+}
+.move{
+  box-shadow:none;
+  transform:translate(0,3px);
+  opacity:0.4;
+}
+body{
+  background-color:gray;
+}
+header{
+  width:800px;
+  margin:0 370px;
+  display:flex;
+}
+header p{
+  margin:10px 40px 0;
+  font-size:65px;
+  
+}
+.red{
+  color:red;
+}
+.orange{
+  color:orange;
+}
+.blue{
+  color:blue;
+}
+.skyblue{
+  color:skyblue;
+}
+.green{
+  color:green;
+}
+.yellow{
+  color:yellow;
+}
+input{
+  cursor:pointer;
+}
+.start:hover{
+  opacity:0.6;
+}

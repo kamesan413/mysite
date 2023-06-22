@@ -3,12 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>tetris</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>初めてのオリジナルサイト</h1>
-    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-    <p>こんにちは</p>
+  <header>
+<p class="red">T</p>
+<p class="orange">E</p>
+<p class="blue">T</p>
+<p class="yellow">R</p>
+<p class="green">I</p>
+<p class="skyblue">S</p>
+  </header>
+  <main>
+    <section class="canvas">
+      <canvas width="360" height="660"></canvas>
+      <button id="btn" class="start">start button</button>
+    </section>
+   
+    <section>
+      <h1>操作方法</h1>
+      <ul>
+      <li>下降：２</li>
+      <li>右に移動：３</li>
+      <li>左に移動：４</li>
+      <li>右回転：マウスを右クリック</li>
+      </ul>
+      <p>level <span>1</span></p>
+      <input type="range" min="1" max="1000" value="1">
+    </section>
+  </main>
+ 
+  
+  <script src="main.js"></script>
 </body>
 </html>
